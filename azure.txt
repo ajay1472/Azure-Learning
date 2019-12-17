@@ -1,1 +1,18 @@
 az role definition create --role-definition create-Custom-Role.json 
+Set-AzureRmResource -ResourceID id_name -Tag tags -Force 
+
+
+# Get list of tags 
+Get-AzureRmTag 
+
+
+
+Steps for Azure Cli 
+1. Azure Cli package 
+
+Microsoft Azure Free account 
+  1. 12 months free 
+    200$ credit for a month 
+    25 + services always free 
+    
+ 
